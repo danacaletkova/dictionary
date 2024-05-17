@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background-color: #fffcf7;
+}
+
+.App header {
+  color: #011a38;
+}
+
+.App .logo {
+  width: 120px;
+  margin: 60px; 
+}
