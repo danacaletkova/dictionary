@@ -4,7 +4,7 @@ import Results from "./Results";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  const [keyword, setKeyword] = useState("dictionary");
+  const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState(null);
 
   function displayResults(response) {
@@ -28,7 +28,7 @@ export default function Dictionary() {
         <input
           type="search"
           autoFocus={true}
-          placeholder={keyword}
+          placeholder="Search dictionary"
           onChange={getKeyword}
         />
       </form>
