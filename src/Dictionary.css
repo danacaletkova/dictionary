@@ -1,3 +1,24 @@
-.Dictionary form {
-    padding: 30px 0;
+.Dictionary h1 {
+  font-size: 24px;
+  padding-left: 30px;
+  color: #053b6a;
+}
+
+.Dictionary .search-input {
+  padding: 0 30px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.Dictionary .searchBtn {
+  max-width: 60px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.Dictionary .searchBtn:hover {
+  cursor: pointer;
+  scale: 105%;
 }
