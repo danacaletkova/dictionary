@@ -61,6 +61,7 @@ export default function Dictionary() {
           className="d-flex align-items-center pb-5"
         >
           <input
+            required
             className="form-control search-input"
             type="search"
             autoFocus={true}
