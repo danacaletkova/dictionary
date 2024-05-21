@@ -1,0 +1,16 @@
+.Synonyms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Synonyms .synonym {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+
+.Synonyms .synonym:hover {
+  cursor: pointer;
+  color: #053b6a;
+}

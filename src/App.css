@@ -7,15 +7,14 @@
 
 .App footer {
   padding: 30px 0;
+  font-size: 12px;
 }
 
 .App footer a {
-  font-size: 12px;
   text-decoration: none;
-  color: #053b6a;
-  transition: all 100ms ease-in-out;
+  color: #000;
 }
 
 .App footer a:hover {
-  font-weight: 700;
+  color: #053b6a;
 }

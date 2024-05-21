@@ -3,7 +3,7 @@ import React from "react";
 export default function Gallery(props) {
   if (props.photos) {
     return (
-      <section className="Gallery">
+      <section className="Gallery p-2">
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (

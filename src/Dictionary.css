@@ -1,11 +1,12 @@
 .Dictionary h1 {
-  font-size: 24px;
-  padding-left: 30px;
+  font-size: 20px;
+  padding-left: 40px;
   color: #053b6a;
+  font-weight: 400;
 }
 
 .Dictionary .search-input {
-  padding: 0 30px;
+  padding: 0 40px;
   border: 1px solid #ddd;
   border-radius: 50px;
   height: 60px;
