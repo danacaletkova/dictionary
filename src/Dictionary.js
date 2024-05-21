@@ -13,7 +13,13 @@ export default function Dictionary() {
   const [photos, setPhotos] = useState(null);
 
   function displayResults(response) {
-    setResults(response.data);
+    if (response.data.status === "not_found") {
+      alert(
+        `Sorry, we have no definitions for '${keyword}' in our dictionary.`
+      );
+    } else {
+      setResults(response.data);
+    }
   }
 
   function displayPhotos(response) {
@@ -38,7 +44,7 @@ export default function Dictionary() {
   }
 
   function getKeyword(event) {
-    setKeyword(event.target.value);
+    setKeyword(event.target.value.split(" ").join(""));
   }
 
   function load() {
