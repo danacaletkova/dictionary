@@ -8,9 +8,11 @@
   padding: 10px 20px;
   border: 1px solid #ddd;
   border-radius: 25px;
+  text-decoration: none;
+  color: #212529;
 }
 
 .Synonyms .synonym:hover {
-  cursor: pointer;
   color: #004fb4;
+  cursor: pointer;
 }

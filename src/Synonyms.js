@@ -7,9 +7,15 @@ export default function Synonyms(props) {
       <div className="Synonyms mt-3">
         {props.synonyms.map((synonym, index) => {
           return (
-            <div key={index} className="synonym">
+            <a
+              key={index}
+              className="synonym"
+              href={`https://www.google.com/search?q=${synonym}`}
+              target="_blank"
+              rel="noreferrer"
+            >
               {synonym}
-            </div>
+            </a>
           );
         })}
       </div>
