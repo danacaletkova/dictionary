@@ -1,8 +1,8 @@
 .Dictionary h1 {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #004fb4;
   padding-left: 40px;
-  color: #053b6a;
-  font-weight: 400;
 }
 
 .Dictionary .search-input {
@@ -10,13 +10,13 @@
   border: 1px solid #ddd;
   border-radius: 50px;
   height: 60px;
-  font-size: 18px;
 }
 
 .Dictionary .searchBtn {
   max-width: 60px;
   border-radius: 30px;
   margin-left: 20px;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
 }
 
 .Dictionary .searchBtn:hover {

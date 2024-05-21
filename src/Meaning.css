@@ -5,12 +5,12 @@
 
 .Meaning p {
   margin: 10px 0;
-  color: #053b6a;
+  color: #004fb4;
   font-weight: 700;
 }
 
 .Meaning i {
   display: block;
-  margin: 10px 0 15px 0;
+  margin: 10px 0;
   opacity: 0.9;
 }
