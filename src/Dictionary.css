@@ -24,3 +24,14 @@
   cursor: pointer;
   scale: 105%;
 }
+
+@media (max-width: 576px) {
+  .Dictionary h1 {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .Dictionary .search-input {
+    padding-left: 20px;
+  }
+}

@@ -19,3 +19,15 @@
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.2);
   background-color: #f9f9f9;
 }
+
+@media (max-width: 576px) {
+  .Results h2,
+  .Results h3 {
+    padding-left: 20px;
+  }
+
+  .Results section {
+    padding: 20px;
+    font-size: 14px;
+  }
+}
