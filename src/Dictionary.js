@@ -7,7 +7,7 @@ import Gallery from "./Gallery";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  const [keyword, setKeyword] = useState("hello");
+  const [keyword, setKeyword] = useState("coffee");
   const [results, setResults] = useState(null);
   const [loaded, setLoaded] = useState(false);
   const [photos, setPhotos] = useState(null);
